@@ -1,0 +1,2 @@
+/// @description Reload
+shots = shotsPerRound;
