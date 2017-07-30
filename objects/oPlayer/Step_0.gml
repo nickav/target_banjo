@@ -28,28 +28,22 @@ if (abs(vx) > 0 && abs(vy) > 0) {
 
 // change directions
 if (!kStrafe) {
-	if (kLeft)       dir = -1;
-	else if (kRight) dir = 1;
-	else if (kUp)    dir = -2;
-	else if (kDown)  dir = 2;
+	if (kLeft)       dir = Facing.LEFT;
+	else if (kRight) dir = Facing.RIGHT;
+	else if (kUp)    dir = Facing.UP;
+	else if (kDown)  dir = Facing.DOWN;
 }
 
 // shoot
 if (kShoot && shots > 0 && shooting <= 0) {
-	with (instance_create_depth(x + vx, y - 1 + vy, 0, oBullet)) {
-		if (abs(other.dir) >= 2) {
-			vspeed = sign(other.dir) * 6;
-		} else {
-			hspeed = sign(other.dir) * 6;
-		}
-	}
-	CameraShake( 2, 2 );
+	ShootBullet();
 	shots -= 1;
 	shooting = shootCooldown;
 	
 	// reload
 	if (shots <= 0) {
 		alarm[0] = room_speed;
+		alarm[1] = room_speed / 3;
 	}
 }
 

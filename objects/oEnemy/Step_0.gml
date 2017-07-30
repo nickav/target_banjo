@@ -15,11 +15,6 @@ if (abs(vx) > 0 && abs(vy) > 0) {
 	vy /= sqrt2;
 }
 
-// move and collide
-repeat (abs(vx)) {
-	if (!place_meeting(x + sign(vx), y - 2, oParSolid)) x += sign(vx);
-}
-
-repeat (abs(vy)) {
-	if (!place_meeting(x, y + sign(vy) - 2, oParSolid)) y += sign(vy);
-}
+// change directions
+if (vx < 0) dir = -1;
+if (vy > 0) dir = 1;

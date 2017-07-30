@@ -2,7 +2,6 @@ event_inherited();
 
 // movement
 moveSpeed = 2;
-dir = 0;
 strafeBuffer = 0;
 
 // shooting

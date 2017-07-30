@@ -2,8 +2,6 @@ Singleton();
 
 instance_create_depth(0, 0, 0, oCamera);
 
-audio_master_gain(0);
-
 audio_play_sound(sndTheme, 0, 1);
 
 /* */
@@ -22,3 +20,7 @@ if (debug) {
 	// create array log
 	_debugLog = DebugLogCreate(_debugLogSize);
 }
+
+// mute in development
+vol = debug ? 0 : 1;
+audio_master_gain(vol);
