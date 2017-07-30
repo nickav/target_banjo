@@ -36,7 +36,7 @@ if (!kStrafe) {
 
 // shoot
 if (kShoot && shots > 0 && shooting <= 0) {
-	with (instance_create_depth(x, y - 1, 0, oBullet)) {
+	with (instance_create_depth(x + vx, y - 1 + vy, 0, oBullet)) {
 		if (abs(other.dir) >= 2) {
 			vspeed = sign(other.dir) * 6;
 		} else {
@@ -54,12 +54,3 @@ if (kShoot && shots > 0 && shooting <= 0) {
 }
 
 shooting = Approach(shooting, 0, 1);
-
-// move and collide
-repeat (abs(vx)) {
-	if (!place_meeting(x + sign(vx), y - 2, oParSolid)) x += sign(vx);
-}
-
-repeat (abs(vy)) {
-	if (!place_meeting(x, y + sign(vy) - 2, oParSolid)) y += sign(vy);
-}

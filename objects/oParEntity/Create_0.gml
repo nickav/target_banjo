@@ -1,1 +1,1 @@
-dir = 1;
+EntityInit();

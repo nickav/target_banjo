@@ -1,9 +1,14 @@
 /// @description Collisions
-invincible -= 1;
-if (invincible >= 0) return;
 
 if (place_meeting(x, y - 2, oParSolid)) {
 	instance_destroy();
+	//instance_create_layer(x, y, "InstancesBg", oSpark);
+}
+
+with (oFxRoomCover) {
+	if (CollisionBBox(self, other)) {
+		instance_destroy(other);
+	}
 }
 
 with (oEnemy) {
@@ -18,12 +23,6 @@ with (oPlayer) {
         instance_destroy();
 		instance_destroy(other);
     }
-}
-
-with (oFxRoomCover) {
-	if (CollisionBBox(self, other)) {
-		instance_destroy(other);
-	}
 }
 
 // outside of room
