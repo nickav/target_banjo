@@ -1,11 +1,25 @@
 if (instance_exists(oPlayer)) {
 	var player = instance_nearest(x, y, oPlayer);
-	if (!collision_line(x, y, player.x, player.y, oWall, 0, 1) &&
-		collision_line(x, y, player.x, player.y, oPlayer, 0, 1)) {
-		
-		vx = sign(player.x - x) * moveSpeed;
-		vy = sign(player.y - y) * moveSpeed;
-	} else vx = 0;
+	
+	if (
+		!collision_line(x, y, player.x, player.y, oWall, 0, 1) &&
+		collision_line(x, y, player.x, player.y, oPlayer, 0, 1)
+	) {
+	
+		if (distance_to_object(player) > 16) {
+			vx = sign(player.x - x) * moveSpeed;
+			vy = sign(player.y - y) * moveSpeed;
+		} else {
+			vx = 0;
+			vy = 0;
+		}
+			
+		dir = AngleToEntityDir(object_direction(player));
+	} else {
+		vx = 0;
+		vy = 0;
+	}
+
 }
 
 // move in both directions slower
@@ -14,7 +28,3 @@ if (abs(vx) > 0 && abs(vy) > 0) {
 	vx /= sqrt2;
 	vy /= sqrt2;
 }
-
-// change directions
-if (vx < 0) dir = -1;
-if (vy > 0) dir = 1;

@@ -26,4 +26,5 @@ if (isShaking) {
 		clamp( vx, 0, room_width - vw ),
 		clamp( vy, 0, room_height - vh )
 	);
+	//camera_set_view_pos(camera, vx, vy);
 }
