@@ -1217,6 +1217,25 @@
             }
         },
         {
+            "Key": "d49a0d90-0ebc-40db-bcd6-177667508d2b",
+            "Value": {
+                "id": "62f3d221-6f20-4c80-b17b-3c3d944050b9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sSlideDoor\/sSlideDoor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d6003299-2ab5-4f96-9c41-cb4f63ec3d89",
             "Value": {
                 "id": "2d4d3b21-ce98-4b41-81e6-9f9e986a9112",

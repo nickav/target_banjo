@@ -19,3 +19,9 @@ with (oPlayer) {
 		instance_destroy(other);
     }
 }
+
+with (oFxRoomCover) {
+	if (CollisionBBox(self, other)) {
+		instance_destroy(other);
+	}
+}

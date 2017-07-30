@@ -3,6 +3,7 @@ vx = 0;
 vy = 0;
 moveSpeed = 2;
 dir = 0;
+strafeBuffer = 0;
 
 // shooting
 shotsPerRound = 4;
