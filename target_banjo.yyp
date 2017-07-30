@@ -476,6 +476,25 @@
             }
         },
         {
+            "Key": "377710ab-31f5-42fa-9b75-ec15810d69ab",
+            "Value": {
+                "id": "79cc341d-e4b0-44fd-a01d-f48911863eb2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndTheme\/sndTheme.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3bce8205-efbb-4238-a427-a63bd4765b8a",
             "Value": {
                 "id": "04a62529-75ea-4f77-8b31-8c406cd28ef7",
@@ -723,6 +742,25 @@
             }
         },
         {
+            "Key": "5e4857b8-cb9f-458b-b021-c4f684e73f98",
+            "Value": {
+                "id": "35aeb544-22f3-4e40-98ad-26eb6d8a68b9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sSpark\/sSpark.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60bf3634-d5ca-4655-818f-7a30bc94feea",
             "Value": {
                 "id": "e0478295-1008-4c7a-8cb0-3d0e78ade303",
@@ -890,6 +928,25 @@
                     "default"
                 ],
                 "resourcePath": "objects\/oShell\/oShell.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7d2e539c-5360-4b50-b1eb-f835e213896e",
+            "Value": {
+                "id": "f288f110-44d6-4450-a8b4-f9f688f6a5fe",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oSpark\/oSpark.yy",
                 "resourceType": "GMObject"
             }
         },

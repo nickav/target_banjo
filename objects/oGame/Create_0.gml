@@ -2,6 +2,10 @@ Singleton();
 
 instance_create_depth(0, 0, 0, oCamera);
 
+audio_master_gain(0);
+
+audio_play_sound(sndTheme, 0, 1);
+
 /* */
 // Debug //////////////////////////////////////////
 debug = !code_is_compiled();

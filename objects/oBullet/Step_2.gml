@@ -1,9 +1,9 @@
 /// @description Collisions
+invincible -= 1;
+if (invincible >= 0) return;
 
-with (oParSolid) {
-    if (CollisionBBox(self, other)) {
-        instance_destroy(other);
-    }
+if (place_meeting(x, y - 2, oParSolid)) {
+	instance_destroy();
 }
 
 with (oEnemy) {
