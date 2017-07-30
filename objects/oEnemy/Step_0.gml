@@ -54,8 +54,6 @@ if (sightx >= 0 && distance_to_point(sightx, sighty) > 8) {
 	vy = y - prevy;
 	x = prevx;
 	y = prevy;
-	trace("mp_step:", vx, vy);
-	trace("sight:", sightx, sighty);
 } else {
 	vx = 0;
 	vy = 0;

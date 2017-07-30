@@ -11,18 +11,11 @@ with (oFxRoomCover) {
 	}
 }
 
-with (oEnemy) {
+with (oParEntity) {
     if (CollisionBBox(self, other)) {
 		var d = object_direction(other);
 		BloodSplatter(x, y + 4, 24, d - 20, d + 20);
 		instance_destroy();
-		instance_destroy(other);
-    }
-}
-
-with (oPlayer) {
-    if (CollisionBBox(self, other)) {
-        instance_destroy();
 		instance_destroy(other);
     }
 }

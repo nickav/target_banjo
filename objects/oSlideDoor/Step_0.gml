@@ -1,4 +1,4 @@
-if (!instance_exists(oEnemy)) {
+if (!instance_exists(oEnemy) && !instance_exists(oEnemySpawner)) {
 	slide = true;
 }
 
