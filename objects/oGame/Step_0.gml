@@ -18,7 +18,6 @@ if (kRestart)
 if (kExit)
     game_end();
 
-
 // Iterate through rooms backward
 if (kPrev) {
     if (room == room_first) room_goto(room_last);
