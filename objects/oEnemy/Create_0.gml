@@ -2,4 +2,5 @@ event_inherited();
 
 // movement
 moveSpeed = 1;
-dir = 0;
+shooting = 0;
+shootTime = 20;

@@ -381,6 +381,25 @@
             }
         },
         {
+            "Key": "238a9704-739d-4b97-bd7b-02b6cdab2f37",
+            "Value": {
+                "id": "e87493c6-1bdd-42ea-a072-f77521de1905",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/EntityDirToAngle\/EntityDirToAngle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "25fb3721-38e7-4f19-9485-c9c94fe18c2b",
             "Value": {
                 "id": "7be067cf-1ebc-4898-a180-fab9f048a71f",
@@ -1179,6 +1198,25 @@
             }
         },
         {
+            "Key": "98d13662-149e-47d9-ae4e-4f9a73a29fac",
+            "Value": {
+                "id": "189252b7-52fd-4e10-9ec8-df50bd281233",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/BloodSplatter\/BloodSplatter.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9960bdfc-0f00-480b-81ee-ed03ffad3acd",
             "Value": {
                 "id": "118727c9-773f-4e0f-831d-b57f83287c3f",
@@ -1842,7 +1880,9 @@
         "f06afae1-e4f1-4413-a3a9-a8efab1a3b98",
         "13d9584b-87a1-4439-9775-a28c8a5a9c43",
         "29b9d42d-4448-49b3-b4bf-09f01e605a18",
-        "9b4e5dbd-a8d5-45f3-a033-92ffec6649ba"
+        "9b4e5dbd-a8d5-45f3-a033-92ffec6649ba",
+        "98d13662-149e-47d9-ae4e-4f9a73a29fac",
+        "238a9704-739d-4b97-bd7b-02b6cdab2f37"
     ],
     "tutorial": ""
 }

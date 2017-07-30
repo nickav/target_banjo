@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "oEnemyDead",
     "eventList": [
-        {
-            "id": "f1828849-2e3d-4bca-910c-37fda18d3836",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "3345763e-cbfa-4f2c-86c6-dcba3a3a95c2"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

@@ -1,5 +1,5 @@
 // Thin out the blood as it spreads
-image_xscale -= sizeChange;
+image_xscale  -= sizeChange;
 image_yscale  = image_xscale;
 
 // I also decided to fade the blood out by a random percentage as it spreads
@@ -22,5 +22,5 @@ if (instance_exists(oControllerBlood)) {
 
 // Once the blood thins away to nothing, destroy it
 // Destroy self
-if (image_xscale <= 0)
+if (image_xscale <= 0.5)
     instance_destroy();
