@@ -1103,6 +1103,25 @@
             }
         },
         {
+            "Key": "81544af3-704d-43aa-b215-f664d66248d1",
+            "Value": {
+                "id": "92a00cb0-91a2-4bc2-a9f1-788dd95f8d89",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rm2\/rm2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "83c450fb-9e25-40ed-b1ca-ebfb9f332cbb",
             "Value": {
                 "id": "3542f717-f201-4512-94b7-5e67df6973fb",
@@ -1214,25 +1233,6 @@
                 ],
                 "resourcePath": "scripts\/BloodSplatter\/BloodSplatter.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "9960bdfc-0f00-480b-81ee-ed03ffad3acd",
-            "Value": {
-                "id": "118727c9-773f-4e0f-831d-b57f83287c3f",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "rooms\/rm11\/rm11.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

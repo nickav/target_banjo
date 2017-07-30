@@ -19,7 +19,7 @@ pColor  = 4;
 
 // Draw offsets
 var th, iw;
-th = 20;            // Height of a text string (vertical distance between entries)
+th = 8;            // Height of a text string (vertical distance between entries)
 iw = 8;             // Additional offset for indented entries
 
 for (var i = 0; i < dls; i++) {          

@@ -42,8 +42,8 @@ if (kShoot && shots > 0 && shooting <= 0) {
 	
 	// reload
 	if (shots <= 0) {
-		alarm[0] = room_speed;
-		alarm[1] = room_speed / 3;
+		alarm[0] = reloadTime;
+		alarm[1] = reloadTime / 3;
 	}
 }
 
