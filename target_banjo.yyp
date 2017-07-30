@@ -324,25 +324,6 @@
             }
         },
         {
-            "Key": "26a4eec0-47dd-44e2-ac1a-5168ac56d6b4",
-            "Value": {
-                "id": "2c834cad-bb67-4d4e-84ad-86387eb7bf4c",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/sPlayerShootDown\/sPlayerShootDown.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "272d20af-2dab-4870-ad10-a39d4bcfd929",
             "Value": {
                 "id": "1b749b74-40f9-49f4-bc27-7cf13833f3c0",
@@ -491,6 +472,25 @@
                     "default"
                 ],
                 "resourcePath": "views\/3bce8205-efbb-4238-a427-a63bd4765b8a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4058239c-fb13-4f40-8889-f23343bd7c93",
+            "Value": {
+                "id": "4a82599a-582b-48c5-91b0-51b02d08f6fa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/4058239c-fb13-4f40-8889-f23343bd7c93.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -891,25 +891,6 @@
                 ],
                 "resourcePath": "scripts\/ShootBullet\/ShootBullet.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "8ba3c129-82eb-47c5-80e0-f57dacc2e8c1",
-            "Value": {
-                "id": "e8415f62-8a96-41b4-bd96-c8e146b76069",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/sPlayerShootRight\/sPlayerShootRight.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

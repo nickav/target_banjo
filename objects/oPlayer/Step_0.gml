@@ -5,7 +5,7 @@ kLeft = keyboard_check(vk_left) || keyboard_check(ord("A"));
 kRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
 kUp = keyboard_check(vk_up) || keyboard_check(ord("W"));
 kDown = keyboard_check(vk_down) || keyboard_check(ord("S"));
-kShoot = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("J"));
+kShoot = keyboard_check(vk_space) || keyboard_check(ord("J"));
 
 // movement
 vx = (kRight - kLeft) * moveSpeed;
@@ -28,7 +28,7 @@ if (abs(vx) > 0 && abs(vy) > 0) {
 }
 
 // shoot
-if (kShoot && shots > 0) {
+if (kShoot && shots > 0 && shooting <= 0) {
 	with (instance_create_depth(x, y - 1, 0, oBullet)) {
 		if (abs(other.dir) >= 2) {
 			vspeed = sign(other.dir) * 6;
@@ -37,12 +37,15 @@ if (kShoot && shots > 0) {
 		}
 	}
 	shots -= 1;
+	shooting = shootCooldown;
 	
 	// reload
 	if (shots <= 0) {
 		alarm[0] = 20;
 	}
 }
+
+shooting = Approach(shooting, 0, 1);
 
 // move and collide
 repeat (abs(vx)) {

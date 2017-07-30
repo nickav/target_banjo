@@ -11,13 +11,13 @@ switch (dir) {
 
 // walking
 if (abs(vx) + abs(vy) > 0) {
-switch (dir) {
-	case -1:
-	case 1: sprite = sPlayerWalkRight; break;
-	case -2: sprite = sPlayerWalkUp; break;
-	case 2: sprite = sPlayerWalkDown; break;
-	default: sprite = sPlayerWalkDown; break;
-}
+	switch (dir) {
+		case -1:
+		case 1: sprite = sPlayerWalkRight; break;
+		case -2: sprite = sPlayerWalkUp; break;
+		case 2: sprite = sPlayerWalkDown; break;
+		default: sprite = sPlayerWalkDown; break;
+	}
 }
 
 image_xscale = dir < 0 ? -1: 1;
