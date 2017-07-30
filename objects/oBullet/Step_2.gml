@@ -25,3 +25,11 @@ with (oFxRoomCover) {
 		instance_destroy(other);
 	}
 }
+
+// outside of room
+if (
+	x < -sprite_width || y > room_height + sprite_height ||
+	x > room_width + sprite_width || y < -sprite_height
+) {
+	instance_destroy();
+}

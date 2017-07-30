@@ -172,6 +172,25 @@
             }
         },
         {
+            "Key": "157b0c5e-c821-4d6d-9cdd-31a562f7342c",
+            "Value": {
+                "id": "9db38eeb-d525-4cf8-9028-af917efb9359",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/157b0c5e-c821-4d6d-9cdd-31a562f7342c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "15ceb025-e8db-43ad-9c63-14fa09d68b91",
             "Value": {
                 "id": "584c94a9-7ebb-4f4c-a6d3-cc62e14a8ad1",
@@ -224,7 +243,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/sBlank\/sBlank.yy",
+                "resourcePath": "sprites\/s8\/s8.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -566,7 +585,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/sFlash\/sFlash.yy",
+                "resourcePath": "sprites\/sPlayerFlash\/sPlayerFlash.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -587,6 +606,25 @@
                 ],
                 "resourcePath": "objects\/oParSolid\/oParSolid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "536095b9-2820-481e-802b-adc950e52694",
+            "Value": {
+                "id": "923f8551-f50c-4dd5-b467-b65d6ac9eec6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/CameraShake\/CameraShake.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -951,6 +989,25 @@
             }
         },
         {
+            "Key": "9960bdfc-0f00-480b-81ee-ed03ffad3acd",
+            "Value": {
+                "id": "118727c9-773f-4e0f-831d-b57f83287c3f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rm11\/rm11.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9f8286f2-b756-4bb7-94fe-f79ac92b429f",
             "Value": {
                 "id": "c95e8520-fcd0-4106-aa54-99f38419875e",
@@ -1065,9 +1122,9 @@
             }
         },
         {
-            "Key": "b7cc1973-6c9e-4057-99f3-69537ba12b23",
+            "Key": "b343e571-5694-4388-9146-047f5f413e1e",
             "Value": {
-                "id": "9ba68ccd-e972-45a6-9e85-9d17bec2b84f",
+                "id": "da03a6ee-8cb1-4477-a052-da38985daa80",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -1079,8 +1136,8 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/rm2\/rm2.yy",
-                "resourceType": "GMRoom"
+                "resourcePath": "objects\/oCamera\/oCamera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1407,6 +1464,25 @@
             }
         },
         {
+            "Key": "f05b29a5-7288-4e8c-8300-823fa00cd043",
+            "Value": {
+                "id": "3d533e4d-98c3-4070-b58c-12e075108b54",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/CameraInit\/CameraInit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "4b778d76-3b2f-43d3-8855-30c318bde7f8",
@@ -1472,9 +1548,11 @@
         "0ec6814c-cc96-4f26-85b2-57fef0ce9c5a",
         "7b03a08b-4419-460e-abe0-64982f7ad1cf",
         "e1cea4b8-c49b-4161-b636-00c57d36d3d4",
+        "2803e4dc-e6af-4a3b-a382-dffddb877bce",
         "94337f31-58d8-4d19-b480-7c6ca48cc7f7",
         "873d8857-919e-49b0-81fc-ffb5e8b8f59b",
-        "2803e4dc-e6af-4a3b-a382-dffddb877bce"
+        "f05b29a5-7288-4e8c-8300-823fa00cd043",
+        "536095b9-2820-481e-802b-adc950e52694"
     ],
     "tutorial": ""
 }

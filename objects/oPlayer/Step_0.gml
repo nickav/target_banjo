@@ -43,6 +43,7 @@ if (kShoot && shots > 0 && shooting <= 0) {
 			hspeed = sign(other.dir) * 6;
 		}
 	}
+	CameraShake( 2, 2 );
 	shots -= 1;
 	shooting = shootCooldown;
 	

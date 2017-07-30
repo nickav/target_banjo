@@ -1,7 +1,6 @@
 Singleton();
 
-window_set_size( room_width * 4, room_height * 4 );
-window_center();
+instance_create_depth(0, 0, 0, oCamera);
 
 /* */
 // Debug //////////////////////////////////////////
