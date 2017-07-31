@@ -96,6 +96,25 @@
             }
         },
         {
+            "Key": "0c12b178-a8d7-4041-b671-603abc239525",
+            "Value": {
+                "id": "60a0fff5-0988-4238-973d-701b42653256",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sEnemyWalkDown1\/sEnemyWalkDown1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0eb0c9bf-fc0b-42e7-bc20-f2235fd84270",
             "Value": {
                 "id": "4e92ef5b-d176-4272-b12a-ccb4e35ae47e",
@@ -761,6 +780,25 @@
             }
         },
         {
+            "Key": "4dcf3c9d-5c1e-4c3d-a50f-22a877ebd4e1",
+            "Value": {
+                "id": "a7c9bd52-2220-431a-adfb-b9823042cec3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oEnemy\/oEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "51079e89-bd90-4f30-9cce-25ea946497bb",
             "Value": {
                 "id": "1d2dd980-39e0-4aac-9c96-358c78ef7e01",
@@ -870,7 +908,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/oEnemy\/oEnemy.yy",
+                "resourcePath": "objects\/oEnemyGun\/oEnemyGun.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1179,6 +1217,25 @@
             }
         },
         {
+            "Key": "8685c3da-748b-4f71-904c-ab984fd3fcb1",
+            "Value": {
+                "id": "52977b84-eba0-41a1-afdc-82e876abe63e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sEnemyWalkRight1\/sEnemyWalkRight1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "873d8857-919e-49b0-81fc-ffb5e8b8f59b",
             "Value": {
                 "id": "a5c07e98-ea2b-4d8f-8a97-c8311396b556",
@@ -1407,6 +1464,25 @@
             }
         },
         {
+            "Key": "aab6baf4-f3d1-4dd6-af2d-200ec7df69dc",
+            "Value": {
+                "id": "f03ab69c-c726-4e7d-812c-42ced5a3064a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sEnemyDown1\/sEnemyDown1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ad00c4eb-03b3-4107-9663-6c3eb6e45ff7",
             "Value": {
                 "id": "e20e6891-ba50-4047-95c5-ff18078c0875",
@@ -1499,6 +1575,25 @@
                 ],
                 "resourcePath": "tilesets\/tileset0\/tileset0.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "ca226dc4-6155-4527-a0bf-f91d1f5f5fbd",
+            "Value": {
+                "id": "06c419a3-be33-4cd0-af2a-7329598cdd66",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sEnemyRight1\/sEnemyRight1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

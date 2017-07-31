@@ -5,13 +5,14 @@ if (!debug) return;
 DebugLogUpdate(_debugLog);
 
 // Input variables for debug room traversal
-var kRestart, kExit, kPrev, kNext, kMute;
+var kRestart, kExit, kPrev, kNext, kMute, kSlow;
 
 kRestart = keyboard_check_pressed(ord("R"));
 kExit    = keyboard_check_pressed(vk_escape);
 kPrev    = keyboard_check_pressed(vk_subtract);
 kNext    = keyboard_check_pressed(vk_add);
 kMute    = keyboard_check_pressed(ord("M"));
+kSlow    = keyboard_check_pressed(ord("P"));
 
 // Restart and exit game
 if (kRestart)
@@ -35,4 +36,8 @@ if (kNext) {
 if (kMute) {
 	vol = !vol;
 	audio_master_gain(vol);
+}
+
+if (kSlow) {
+	room_speed = 10;
 }

@@ -6,18 +6,19 @@ if (collision_rectangle(x, y - 2, x + hspeed, y + vspeed - 2, oParSolid, 0, 1)) 
 }
 
 with (oFxRoomCover) {
-	if (CollisionBBox(self, other)) {
+	if (image_alpha <= 1 && CollisionBBox(self, other)) {
 		instance_destroy(other);
 	}
 }
 
-with (oParEntity) {
-    if (CollisionBBox(self, other)) {
-		var d = object_direction(other);
-		BloodSplatter(x, y + 4, 24, d - 20, d + 20);
-		instance_destroy();
-		instance_destroy(other);
-    }
+// use speed rect to prevent tunneling
+var ww = sprite_height;
+var entity = collision_rectangle(x - ww, y - ww, x + ww + hspeed, y + ww + vspeed, oParEntity, 0, 1);
+if (entity) {
+	var d = object_direction(entity);
+	BloodSplatter(x, y + 4, 24, d - 20, d + 20);
+	instance_destroy();
+	instance_destroy(entity);
 }
 
 // outside of room
