@@ -7,6 +7,14 @@ if (instance_exists(oPlayer)) {
 	var margin = 0.3;
 	vx = clamp(vx, tx - vw * margin, tx + vw * margin);
 	vy = clamp(vy, ty - vh * margin, ty + vh * margin);
+	
+	
+	var dir = EntityDirToAngle(oPlayer.dir);
+	tx += lengthdir_x(30, dir);
+	ty += lengthdir_y(30, dir);
+	
+	vx = Approach(vx, clamp(vx, tx - vw * margin, tx + vw * margin), 1);
+	vy = Approach(vy, clamp(vy, ty - vh * margin, ty + vh * margin), 1);
 }
 
 //Shake the camera assigned to the current view
