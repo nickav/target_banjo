@@ -1,16 +1,19 @@
 if (!instance_exists(oPlayer)) return;
 
 var player = instance_nearest(x, y, oPlayer);
+var objDir = object_direction(player);
+
 // clear sight to player
 if (
 	!collision_line(x, y, player.x, player.y, oWall, 0, 1) &&
-	collision_line(x, y, player.x, player.y, oPlayer, 0, 1)
+	collision_line(x, y, player.x, player.y, oPlayer, 0, 1) &&
+	abs(angle_difference(objDir, EntityDirToAngle(dir))) < 90
 ) {
 	// set target positions
 	sightx = player.x;
 	sighty = player.y;
 	// face player
-	dir = AngleToEntityDir(object_direction(player));
+	dir = AngleToEntityDir(objDir);
 	inSight = true;
 } else {
 	event_inherited();
