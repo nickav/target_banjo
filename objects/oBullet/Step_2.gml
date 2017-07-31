@@ -16,7 +16,7 @@ var ww = sprite_height;
 var entity = collision_rectangle(x - ww, y - ww, x + ww + hspeed, y + ww + vspeed, oParEntity, 0, 1);
 if (entity) {
 	var d = object_direction(entity);
-	BloodSplatter(x, y + 4, 24, d - 20, d + 20);
+	BloodSplatter(entity.x, entity.y + 4, 24, d - 20, d + 20);
 	instance_destroy();
 	instance_destroy(entity);
 }
