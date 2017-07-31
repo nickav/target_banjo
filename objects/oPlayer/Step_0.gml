@@ -37,6 +37,7 @@ if (!kStrafe) {
 // shoot
 if (kShoot && shots > 0 && shooting <= 0) {
 	ShootBullet();
+	CameraShake( 2, 2 );
 	shots -= 1;
 	shooting = shootCooldown;
 	

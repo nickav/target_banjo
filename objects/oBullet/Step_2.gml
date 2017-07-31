@@ -6,7 +6,7 @@ if (collision_rectangle(x, y - 2, x + hspeed, y + vspeed - 2, oParSolid, 0, 1)) 
 }
 
 with (oFxRoomCover) {
-	if (image_alpha <= 1 && CollisionBBox(self, other)) {
+	if (image_alpha >= 1 && CollisionBBox(self, other)) {
 		instance_destroy(other);
 	}
 }

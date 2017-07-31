@@ -1350,6 +1350,25 @@
             }
         },
         {
+            "Key": "9d646790-5d27-49ca-b9b8-e4cbf5943b02",
+            "Value": {
+                "id": "9f419761-1fe8-4eab-8946-a59f1b8f195a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oAtkBox\/oAtkBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9f8286f2-b756-4bb7-94fe-f79ac92b429f",
             "Value": {
                 "id": "c95e8520-fcd0-4106-aa54-99f38419875e",

@@ -1,15 +1,12 @@
-//var camera = view_camera[view_current];
-var vw = camera_get_view_width(camera), vh = camera_get_view_height(camera);
-
 // Track player
 if (instance_exists(oPlayer)) {
 	var px = oPlayer.x, py = oPlayer.y;
 	var tx = px - vw / 2;
 	var ty = py - vh / 2;
 	
-	var margin = 80;
-	vx = clamp(vx, tx - margin, tx + margin);
-	vy = clamp(vy, ty - margin, ty + margin);
+	var margin = 0.3;
+	vx = clamp(vx, tx - vw * margin, tx + vw * margin);
+	vy = clamp(vy, ty - vh * margin, ty + vh * margin);
 }
 
 //Shake the camera assigned to the current view
