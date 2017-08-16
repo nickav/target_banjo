@@ -4,15 +4,16 @@ if (instance_exists(oPlayer)) {
 	var tx = px - vw / 2;
 	var ty = py - vh / 2;
 	
-	var margin = 0.3;
+	var margin = 0.2;
 	vx = clamp(vx, tx - vw * margin, tx + vw * margin);
 	vy = clamp(vy, ty - vh * margin, ty + vh * margin);
 	
-	
+	// project player direction
 	var dir = EntityDirToAngle(oPlayer.dir);
-	tx += lengthdir_x(30, dir);
-	ty += lengthdir_y(30, dir);
+	tx += lengthdir_x(vw * margin / 2, dir);
+	ty += lengthdir_y(vh * margin / 2, dir);
 	
+	// include player + sight in view
 	vx = Approach(vx, clamp(vx, tx - vw * margin, tx + vw * margin), 1);
 	vy = Approach(vy, clamp(vy, ty - vh * margin, ty + vh * margin), 1);
 }

@@ -6,10 +6,10 @@ kRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
 kUp = keyboard_check(vk_up) || keyboard_check(ord("W"));
 kDown = keyboard_check(vk_down) || keyboard_check(ord("S"));
 kShoot = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("J"));
-kStrafe = keyboard_check(vk_space) || keyboard_check(ord("J"));
+kStrafe = keyboard_check(vk_shift) || keyboard_check(ord("K"));
 
 // buffer strafe
-if (kStrafe) strafeBuffer = 4;
+if (kShoot) strafeBuffer = 4;
 else strafeBuffer -= 1;
 
 // still hold strafe a little bit after releasing

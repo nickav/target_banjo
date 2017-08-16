@@ -22,6 +22,8 @@ if (kShoot && shots > 0 && shooting <= 0) {
 	shooting = shootCooldown + shootDelay;
 }
 
+followDist = kShoot ? 16 : 0;
+
 if (shooting == shootCooldown) {
 	ShootBullet();
 	shots -= 1;
