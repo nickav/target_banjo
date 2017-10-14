@@ -20,3 +20,11 @@ if (keyboard_check(ord("O"))) {
 		draw_rectangle(left, top, right, bottom, 1);
 	}
 }
+
+if (keyboard_check(ord("P"))) {
+	draw_set_alpha(0.5);
+	draw_set_color(c_red);
+	with (oEnemy) draw_rectangle(sightx, sighty, sightx + 1, sighty + 1, 0);
+	draw_set_alpha(1);
+	draw_set_color(c_white);
+}

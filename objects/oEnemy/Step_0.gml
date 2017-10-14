@@ -28,6 +28,12 @@ if (sightx >= 0 && distance_to_point(sightx, sighty) > followDist) {
 	vy = y - prevy;
 	x = prevx;
 	y = prevy;
+	
+	// stop moving if we got stuck
+	if (vx == 0 && vy == 0) {
+		sightx = -1;
+		sighty = -1;
+	}
 } else {
 	vx = 0;
 	vy = 0;
