@@ -324,6 +324,25 @@
             }
         },
         {
+            "Key": "1e7b1980-7030-4bb1-9723-4007a9bc959d",
+            "Value": {
+                "id": "f122c6ca-a98e-490c-b248-69ebeb013b67",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/instance_create\/instance_create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1fe71063-d825-485b-9697-8f1f076f9c62",
             "Value": {
                 "id": "774d43f9-7bac-4e5f-80a6-32d0fd77bd12",
@@ -856,6 +875,25 @@
             }
         },
         {
+            "Key": "54102761-de2f-43d9-9a76-9e7130b10634",
+            "Value": {
+                "id": "6e799ee3-5fbd-4d95-b815-38e985fc5f85",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sAmmo\/sAmmo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "55ca23c9-b8be-4ed7-b951-bf1ec50d2fd9",
             "Value": {
                 "id": "7c2d0b3a-ec6c-45d7-b362-cca4e92f6123",
@@ -1005,6 +1043,25 @@
                 ],
                 "resourcePath": "sprites\/sPlayerMask\/sPlayerMask.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6655d7b6-d2e2-40b2-a3d9-942262187b71",
+            "Value": {
+                "id": "ef77c351-a26f-4cab-9449-17cc124b1703",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oAmmo\/oAmmo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2053,7 +2110,8 @@
         "29b9d42d-4448-49b3-b4bf-09f01e605a18",
         "9b4e5dbd-a8d5-45f3-a033-92ffec6649ba",
         "98d13662-149e-47d9-ae4e-4f9a73a29fac",
-        "238a9704-739d-4b97-bd7b-02b6cdab2f37"
+        "238a9704-739d-4b97-bd7b-02b6cdab2f37",
+        "1e7b1980-7030-4bb1-9723-4007a9bc959d"
     ],
     "tutorial": ""
 }

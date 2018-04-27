@@ -37,12 +37,12 @@ if (!kStrafe) {
 // shoot
 if (kShoot && shots > 0 && shooting <= 0) {
 	ShootBullet();
-	CameraShake( 2, 2 );
+	CameraShake( 3, 3 );
 	shots -= 1;
 	shooting = shootCooldown;
 	
 	// reload
-	if (shots <= 0) {
+    if (shots <= 0) {
 		alarm[0] = reloadTime;
 		alarm[1] = reloadTime / 3;
 	}
